@@ -1,0 +1,8 @@
+
+开-闭原则（Open-Closed principle,简称OCP)
+OCP原则认为：
+  一个软件应该对扩展开放，对修改关闭。 这是由大师Bertrand Meyer提出，英文原文是： 
+    Software entities should be open for extension,but closed for modification. 
+   他认为，在设计模块时，软件应该使这个模块在不被修改的前提下被扩展，换句话，是不必修改源代码的情况改变模块的行为。
+   
+   

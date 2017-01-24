@@ -1,0 +1,10 @@
+
+
+用处： 界面设计
+
+
+用法：参照JDK java.util.Observable（被观察者）  Observer （观察者）
+
+1 Observable 中has a(聚合)了 一组（vector）Observer
+2 被观察者中通知观察者的方法notifyObservers(该方法遍历vector中所有的观察者，触发观察者方法update())
+
